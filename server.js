@@ -22,7 +22,7 @@ var mongoose = require('mongoose');
 
 mongoose.connect('mongodb://127.0.0.1:27017/test');
 
-var Bear = require('./models/bear');
+//var Bear = require('./models/bear');
 
 // ROUTES FOR OUR API
 // =============================================================================
@@ -36,6 +36,7 @@ router.get('/', function(req, res) {
 	});
 });
 
+/*
 router.route('/bears')
 // create a bear (accessed at POST http://localhost:8080/api/bears)
 .post(function(req, res) {
@@ -50,7 +51,7 @@ router.route('/bears')
 		});
 	});
 });
-
+*/
 // more routes for our API will happen here
 
 // REGISTER OUR ROUTES -------------------------------
